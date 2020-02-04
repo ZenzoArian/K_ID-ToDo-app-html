@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="99" height="45" viewBox="0 0 99 45">
+  <g id="Group_68" data-name="Group 68" transform="translate(-138 -610)">
+    <g id="Rectangle_58" data-name="Rectangle 58" transform="translate(138 610)" fill="none" stroke="#8aaefb" stroke-width="4">
+      <rect width="99" height="45" rx="14" stroke="none"/>
+      <rect x="2" y="2" width="95" height="41" rx="12" fill="none"/>
+    </g>
+    <text id="Audio" transform="translate(161 639)" fill="#8aaefb" font-size="19" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Audio</tspan></text>
+  </g>
+</svg>

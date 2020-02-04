@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="338" height="310" viewBox="0 0 338 310">
+  <defs>
+    <filter id="Rectangle_1" x="0" y="0" width="338" height="310" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_84" data-name="Group 84" transform="translate(-19 -133)">
+    <g id="Group_63" data-name="Group 63" transform="translate(0 30)">
+      <g id="Group_44" data-name="Group 44" transform="translate(28 109)">
+        <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_1)">
+          <g id="Rectangle_1-2" data-name="Rectangle 1" transform="translate(9 6)" fill="#fff" stroke="#fff" stroke-width="1">
+            <rect width="320" height="292" stroke="none"/>
+            <rect x="0.5" y="0.5" width="319" height="291" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="9" height="292" transform="translate(27 109)" fill="#8aaefb"/>
+    </g>
+    <text id="Goed_gedaan_" data-name="Goed gedaan!" transform="translate(84 195)" fill="#8aaefb" font-size="31" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Goed gedaan!</tspan></text>
+    <g id="check-mark-button" transform="translate(123 233.244)">
+      <g id="Group_64" data-name="Group 64" transform="translate(0 0)">
+        <path id="Path_7" data-name="Path 7" d="M64.229,0a64.229,64.229,0,1,0,64.229,64.229A64.3,64.3,0,0,0,64.229,0Zm0,118.106a53.878,53.878,0,1,1,53.877-53.877A53.938,53.938,0,0,1,64.229,118.106Z" transform="translate(0 0)" fill="#8aaefb"/>
+        <path id="Path_8" data-name="Path 8" d="M64.926,19.828,34.946,49.811,23.976,38.84a5.174,5.174,0,0,0-7.317,7.317l14.63,14.63a5.17,5.17,0,0,0,7.317,0l33.64-33.64a5.176,5.176,0,0,0-7.32-7.32Z" transform="translate(19.777 23.92)" fill="#8aaefb"/>
+      </g>
+    </g>
+  </g>
+</svg>

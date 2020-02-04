@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <title></title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="Aanmelden" id="Aanmelden">
+      <div class="whiteBannerContainer">
+        <img src="img/topWhite.svg" alt="whiteBanner" class="whiteBanner">
+      </div>
+      <div class="contentContainer">
+        <div class="header">
+
+        </div>
+        <div class="contentMiddle">
+          <div class="whiteBLockLogin">
+            <div class="whiteBlockLine"></div>
+            <div class="innerContent">
+              <div class="headerTitle">
+                <h1>Aanmelden</h1>
+              </div>
+              <div class="inputLogin">
+                <img class="inputIcon" src="img/person.png" alt="">
+                <input id="inputUser" type="text" name="" value="" placeholder="Gebruiker">
+                <div class="loginLine" id="loginLineU"></div>
+
+                <img class="inputIcon lock" src="img/lock.png" alt="">
+                <input id="inputPass" class="input-pass" type="password" name="" value="" placeholder="••••••••••">
+                <div class="loginLine" id="loginLineP"></div>
+
+                <img id="eye-c" class="eye eye-c" src="img/eye-C.png" alt="" onclick="showPass()">
+                <img id="eye-o" class="eye eye-o" src="img/eye-O.png" alt="" onclick="hidePass()">
+              </div>
+              <div style="clear:both;"></div>
+              <div class="loginButton" onclick="Control()">
+                <p><strong>Login</strong></p>
+              </div>
+
+              <div class="passRe" onclick="onthouden()">
+
+                <div class="ontBut" id="ontBut"></div>
+                <div class="onttext">
+                  Onthouden
+                </div>
+              </div>
+
+
+            </div>
+            <div class="passForgot" onclick="wwForgot()">
+              <p>Wachtwoord vergeten?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="selectPersoon" id="selectPersoon">
+      <div class="whiteBannerContainer">
+        <img src="img/topWhite.svg" alt="whiteBanner" class="whiteBanner">
+      </div>
+      <div class="contentContainer">
+        <div class="header">
+
+        </div>
+        <div class="contentMiddle">
+          <div class="headerTitle selectHeader">
+            <h1>Aanmelden</h1>
+          </div>
+          <div class="whiteBLockSelect" onclick="selectPer()">
+            <div class="whiteBlockLineSelect"></div>
+            <div class="innerContent">
+              <div class="person">
+                <h3>Hendrik The Kop</h3>
+              </div>
+              <img src="img/next.png" alt="" class="nextButton">
+              <div class="personButton">
+                <h3>SELECTEER</h3>
+              </div>
+
+
+            </div>
+          </div>
+
+          <div class="whiteBLockSelect" onclick="selectPer()">
+            <div class="whiteBlockLineSelect"></div>
+            <div class="innerContent">
+              <div class="person">
+                <h3>Hendrik The Kop</h3>
+              </div>
+              <img src="img/next.png" alt="" class="nextButton">
+              <div class="personButton">
+                <h3>SELECTEER</h3>
+              </div>
+
+
+            </div>
+          </div>
+
+          <div class="whiteBLockSelect" onclick="selectPer()">
+            <div class="whiteBlockLineSelect"></div>
+            <div class="innerContent">
+              <div class="person">
+                <h3>Hendrik The Kop</h3>
+              </div>
+              <img src="img/next.png" alt="" class="nextButton">
+              <div class="personButton">
+                <h3>SELECTEER</h3>
+              </div>
+
+
+            </div>
+          </div>
+
+          <div class="whiteBLockSelect" onclick="selectPer()">
+            <div class="whiteBlockLineSelect"></div>
+            <div class="innerContent">
+              <div class="person">
+                <h3>Hendrik The Kop</h3>
+              </div>
+              <img src="img/next.png" alt="" class="nextButton">
+              <div class="personButton">
+                <h3>SELECTEER</h3>
+              </div>
+
+
+            </div>
+          </div>
+
+          <div class="whiteBLockSelect" onclick="selectPer()">
+            <div class="whiteBlockLineSelect"></div>
+            <div class="innerContent">
+              <div class="person">
+                <h3>Hendrik The Kop</h3>
+              </div>
+              <img src="img/next.png" alt="" class="nextButton">
+              <div class="personButton">
+                <h3>SELECTEER</h3>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="WWforgot" id="WWforgot">
+      <div class="whiteBannerContainer">
+        <img src="img/topWhite.svg" alt="whiteBanner" class="whiteBanner">
+      </div>
+      <div class="contentContainer">
+        <div class="header">
+
+        </div>
+        <div class="contentMiddle">
+          <div class="whiteBLockLogin">
+            <div class="whiteBlockLine"></div>
+            <div class="innerContent">
+              <div class="headerTitle">
+                <h1>Wachtwoord<br>vergeten</h1>
+              </div>
+              <div class="inputLogin">
+                <div class="MailSend" id="MailSend">
+                  <h3>Wachtwoord verstuurd</h3>
+                </div>
+                <img class="inputIcon" src="img/mail.png" alt="">
+                <input id="inputmail" type="text" name="" value="" placeholder="E-mail">
+                <div class="loginLine" id="loginLineE"></div>
+
+              </div>
+              <div style="clear:both;"></div>
+              <div class="loginButton verstuur" onclick="ControlE()">
+                <p><strong>Verstuur</strong></p>
+              </div>
+
+
+            </div>
+            <div class="passForgotBack" onclick="wwForgotBack()">
+              <p>Terug naar aanmelden</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

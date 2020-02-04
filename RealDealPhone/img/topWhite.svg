@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="214" viewBox="0 0 375 214">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-iPhone_6_7_8_1);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-iPhone_6_7_8_1">
+      <rect width="375" height="214"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_6_7_8_1" data-name="iPhone 6/7/8 – 1" class="cls-1">
+    <path id="Polygon_1" data-name="Polygon 1" class="cls-2" d="M254,0,508,143H0Z" transform="translate(442 210) rotate(180)"/>
+    <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-2" width="375" height="97"/>
+  </g>
+</svg>

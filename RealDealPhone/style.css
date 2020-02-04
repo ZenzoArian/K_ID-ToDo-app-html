@@ -1,0 +1,472 @@
+body {
+  /* margin: 0; */
+  font-family: sans-serif;
+  color: #43557A;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.container {
+  background-color: #D5E1FB;
+  width: 375px;
+  height: 667px;
+  margin: auto;
+  /* v------------------------v */
+  border: solid black 1px;
+  /* ^------------------------^ */
+  overflow: hidden;
+}
+
+.whiteBanner {
+  position: absolute;
+  top: 0;
+}
+
+.contentContainer {
+  position: relative;
+  height: 100%;
+}
+
+.whiteBLockLogin {
+  background-color: white;
+  height: 27em;
+  width: 73%;
+  margin: 4em auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+}
+
+.whiteBlockLine {
+  background-color: #8AAEFB;
+  width: .5em;
+  height: 27em;
+  position: absolute;
+}
+
+.innerContent {
+  text-align: center;
+  position: relative;
+}
+
+.headerTitle {
+  padding-top: 1em;
+  text-align: center;
+}
+
+.inputLogin {
+  width: 80%;
+  margin: 3em auto;
+}
+
+input {
+  border: white;
+  font-size: 1.3em;
+  opacity: 45%;
+  transition: opacity .5s ease;
+  float: right;
+  width: 8.5em;
+  margin-top: .3em;
+}
+
+input:focus {
+  outline: none;
+  opacity: 100%;
+}
+
+.placeHolder::placeholder {
+  color: #FF8C8C;
+}
+
+.input-pass {
+  width: 6.7em;
+  float: left;
+  margin-left: .65em;
+}
+
+.loginLine {
+  background-color: #8AAEFB;
+  width: 100%;
+  height: 1px;
+  margin: 2px auto;
+  float: right;
+  margin-bottom: 3em;
+  transition: background-color .2s ease;
+}
+
+.inputIcon {
+  float: left;
+}
+
+.lock {
+  margin-top: .3em;
+  margin-left: 3px;
+}
+
+.eye {
+  float: right;
+  margin-top: -5em;
+  cursor: pointer;
+}
+
+.eye-o {
+  display: none;
+}
+
+.loginButton {
+  margin: 0 auto;
+  color: white;
+  background-color: #8AAEFB;
+  width: 80%;
+  font-size: 2em;
+  border-radius: 20px;
+}
+
+.loginButton p {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.passForgot {
+  margin-top: 7em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.ontBut {
+  width: .5em;
+  height: .5em;
+  border: #707070 solid 2px;
+  border-radius: 5px;
+  opacity: 45%;
+  margin-left: 5.5em;
+  cursor: pointer;
+  background-color: white;
+  transition: background-color .5s ease;
+}
+
+.onttext {
+  margin-top: -.9em;
+  margin-left: 10px;
+  opacity: 65%;
+}
+
+.passRe {
+  cursor: pointer;
+}
+
+.Aanmelden {}
+
+.selectPersoon {
+  display: none;
+}
+
+#WWforgot {
+  display: none;
+}
+
+.footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  margin-bottom: -2em;
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.NoFloat{
+  clear: both;
+}
+/* ---------------------------------------------- */
+.whiteBLockSelect {
+  background-color: white;
+  height: 7em;
+  width: 73%;
+  margin: 1em auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+  cursor: pointer;
+}
+
+.whiteBlockLineSelect {
+  background-color: #8AAEFB;
+  width: .5em;
+  height: 7em;
+  position: absolute;
+}
+
+.person {
+  float: left;
+  margin-left: 1em;
+  font-size: 1.2em;
+}
+
+.personButton {
+  float: right;
+  margin-top: -1em;
+}
+
+.nextButton {
+  float: right;
+  margin-top: 4em;
+}
+
+.selectHeader {
+  margin-bottom: 3em;
+}
+
+/* ---------------------------------------------- */
+.verstuur {
+  margin-top: 1em;
+}
+
+.MailSend {
+  color: white;
+  transition: color .5s ease;
+  margin-bottom: 1em;
+}
+
+.passForgotBack {
+  margin-top: 10.7em;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* ---------------------------------------------- */
+.whiteBLockSelectToDo {
+  background-color: white;
+  height: 4em;
+  width: 63%;
+  margin: 1.3em auto;
+  margin-left: 6em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+  cursor: pointer;
+}
+
+.whiteBlockLineSelectToDo {
+  background-color: #8AAEFB;
+  width: .5em;
+  height: 4em;
+  position: absolute;
+}
+
+.nextButtonToDo {
+  float: right;
+  margin-top: .8em;
+}
+
+.ToDoSelectText h3 {
+  font-size: 1em;
+  padding-top: 1.5em;
+}
+
+.time {
+  margin-top: -3em;
+  margin-left: 1em;
+  float: left;
+}
+
+.Circle {
+  margin: .6em 0 0 -1.1em;
+  float: left;
+}
+
+.log-out {
+  float: left;
+  margin-left: 1em;
+  margin-top: -.5em;
+  cursor: pointer;
+}
+
+.dayHead {
+  margin-right: 2em;
+  margin-top: -.1em;
+}
+
+.longLine {
+  height: 10em;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+.footer img {
+  padding: 1em 0em 1em 0em;
+  margin: auto;
+  cursor: pointer;
+}
+
+.scroll-con {
+  overflow: scroll;
+}
+
+/* ---------------------------------------------- */
+.WeekSelectCon, .MonthSelectCon{
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  width: 80%;
+  height: 4em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+  word-spacing: 8px;
+}
+
+.DayNext {
+  float: right;
+  margin-top: .7em;
+}
+
+.DayPrev {
+  float: left;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  margin-top: .7em;
+}
+.weekNumbers{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.5em;
+  width: 70%;
+}
+.weekNumbers p{
+  margin: 0;
+  margin-top: .7em;
+}
+/* ---------------------------------------------- */
+.MonthCon{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  width: 80%;
+  margin: auto;
+}
+
+.MonthNumber{
+  padding: 2px;
+  margin: 8 5 8 5;
+  font-size: 20;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.MonthDayName{
+  padding: 2px;
+  margin: 8 5 8 5;
+  font-size: 20;
+  text-align: center;
+}
+
+.MonthNumberOpacity{
+  opacity: .5;
+}
+
+.MonthNumberPresent{
+  border: solid 2px #43557A;
+  border-radius: 50%;
+}
+
+.MonthNumberTask{
+  text-decoration: underline;
+}
+
+/* ---------------------------------------------- */
+
+
+.TaskHeader{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.TaskHeader img{
+  margin: auto;
+  cursor: pointer;
+}
+
+.TaskImgBack{
+  display: block;
+  margin: 2em auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+  background-color: white;
+  width: 20em;
+  height: 20em;
+}
+
+.TaskImg{
+  width: 70%;
+  margin: auto;
+  display: block;
+  opacity: .8;
+  padding-top: 3em;
+}
+
+.TaskText{
+  text-align: center;
+  width: 90%;
+  display: block;
+  margin: auto;
+  font-size: 20;
+  opacity: .80;
+  margin-bottom: 3.5em;
+}
+
+.TaskTimerNumber{
+  font-weight: bold;
+  margin-left: 1.8em;
+  font-size: .8em;
+}
+
+.TaskTimerBarCon{
+  width: 75%;
+  background-color: white;
+  height: .8em;
+  margin-right: 1.8em;
+  margin-bottom: 3em;
+}
+
+.TaskTimerBarLine{
+  width: 0;
+  background-color: #8AAEFB;
+  height: 100%;
+  transition: width 1s linear;
+}
+
+/* ---------------------------------------------- */
+
+.completeCon{
+  background-color: #BACFFD;
+  width: 100%;
+  height: 100%;
+}
+
+.completedInner{
+  margin: auto;
+  display: block;
+  padding-top: 7em;
+}
+
+.doneImg{
+  margin: auto;
+  display: block;
+}
+
+.button{
+  margin-top: 2em;
+  cursor: pointer;
+}

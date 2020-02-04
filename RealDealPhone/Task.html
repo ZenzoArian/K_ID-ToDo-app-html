@@ -1,0 +1,53 @@
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <title></title>
+</head>
+
+<body onload="TaskTimer()">
+
+  <div class="container">
+    <div class="selectDay" id="selectDay">
+      <div class="whiteBannerContainer">
+        <img src="img/topWhite.svg" alt="whiteBanner" class="whiteBanner">
+      </div>
+      <div class="contentContainer scroll-con">
+        <div class="contentMiddle">
+          <div class="headerTitle TaskHeader">
+            <img src="img/overzicht.svg" alt="" class="" onclick="overzicht()">
+            <img src="img/paniek.svg" alt="" class="" onclick="paniek()">
+          </div>
+
+          <div class="TaskImgBack">
+            <img src="img/toothbrush.svg" alt="" class="TaskImg">
+          </div>
+
+          <div class="TaskText" id="TaskText">
+            <h3>maak je tandenborstel nat</h3>
+          </div>
+
+          <div class="TaskTimerCon">
+            <div class="TaskTimerNumber left" id="TaskTimerNumber"></div>
+            <div class="TaskTimerBarCon right">
+              <div class="TaskTimerBarLine" id="TaskTimerBarLine"></div>
+            </div>
+          </div>
+
+          <div class="footer">
+            <img src="img/terug.svg" id="" alt="" class="" onclick="terug()">
+            <img src="img/audio.svg" id="" alt="" class="" onclick="audio()">
+            <img src="img/verder.svg" id="" alt="" class="" onclick="verder()">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

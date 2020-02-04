@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96.063" height="36.77" viewBox="0 0 96.063 36.77">
+  <g id="Group_83" data-name="Group 83" transform="translate(-25.937 -23.766)">
+    <g id="Group_74" data-name="Group 74" transform="translate(31 28.423)">
+      <text id="Overzicht" transform="translate(18 19.577)" fill="#8aaefb" font-size="16" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Overzicht</tspan></text>
+      <path id="Path_11" data-name="Path 11" d="M0,0" transform="translate(-3.5 14.077)" fill="none" stroke="#707070" stroke-width="1"/>
+    </g>
+    <path id="Union_1" data-name="Union 1" d="M0,23.641V1.359A1.359,1.359,0,0,1,1.359,0H23.641a1.359,1.359,0,1,1,0,2.717H2.717V23.641a1.359,1.359,0,1,1-2.717,0Z" transform="translate(26.644 42.151) rotate(-45)" fill="#8aaefb" stroke="#8aaefb" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>
